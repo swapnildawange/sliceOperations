@@ -1,5 +1,5 @@
 
-package slice_operations
+package sliceOperations
 
 func Contains(ele string, sl []string) bool {
 	for _, i := range sl {
