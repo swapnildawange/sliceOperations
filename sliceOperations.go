@@ -1,8 +1,6 @@
 
 package slice_operations
 
-import "fmt"
-
 func Contains(ele string, sl []string) bool {
 	for _, i := range sl {
 		if i == ele {
@@ -38,16 +36,5 @@ func Unique(sl []string) (keys []string) {
 	return
 }
 
-func execute() {
-	// e := "w"
-	// s1 := []string{"a", "b", "c", "c"}
-	s2 := []string{"a", "d", "e", "b", "b", "c"}
 
-	// isPresent := CheckOne(e, s)
-	// fmt.Println(isPresent)
-
-	unique := Unique(s2)
-	fmt.Println(unique)
-
-}
 
